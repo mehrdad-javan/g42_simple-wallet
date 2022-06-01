@@ -1,3 +1,3 @@
-# simple-wallet application layer
+# simple-wallet
 
 ![img.png](img/img.png)
