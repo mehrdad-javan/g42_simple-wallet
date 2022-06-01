@@ -1,5 +1,6 @@
 package se.lexicon.dao.impl;
 
+import org.springframework.stereotype.Component;
 import se.lexicon.dao.CustomerDao;
 import se.lexicon.dao.sequencer.CustomerIdSequencer;
 import se.lexicon.exception.DataNotFoundException;
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Component
 public class CustomerDaoImpl implements CustomerDao {
 
   Collection<Customer> storage;

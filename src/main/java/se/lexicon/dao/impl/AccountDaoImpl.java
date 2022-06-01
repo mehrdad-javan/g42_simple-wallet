@@ -1,5 +1,6 @@
 package se.lexicon.dao.impl;
 
+import org.springframework.stereotype.Component;
 import se.lexicon.dao.AccountDao;
 import se.lexicon.dao.sequencer.AccountIdGenerator;
 import se.lexicon.exception.DataNotFoundException;
@@ -9,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;
 
+@Component
 public class AccountDaoImpl implements AccountDao {
 
   Collection<Account> storage;
